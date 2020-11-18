@@ -1,0 +1,7 @@
+string[] targetBody
+string[] actionType
+string[] object
+string[] targetPose
+
+---
+int32 result

@@ -1,0 +1,4 @@
+string[] arm_name
+sensor_msgs/JointState goalPose
+---
+int64 w_flag

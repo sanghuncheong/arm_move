@@ -1,0 +1,7 @@
+Header header
+string[] arm_name
+sensor_msgs/JointState goalJoint
+---
+int64 w_flag
+int64 feasibility
+moveit_msgs/RobotTrajectory r_trj

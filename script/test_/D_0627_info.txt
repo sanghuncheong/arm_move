@@ -1,0 +1,53 @@
+''' 
+==================================
+value of grid
+0: 'gray' empty grid
+1: 'black' occupied grid that you cannot place an object
+2: 'red' obstacles on the robot's work space
+3: 'pink' candidates on the robot's work space
+4: 'limegreen' target object on the robot's work space
+===================================
+valuables
+
+ws_w, ws_d : work space width and depth
+grid_acc : actual grid
+grid_del : delete obstacles that we have to rearrange
+grid_env : grid for environment setting
+grid_can : grid for getting candidates
+grid_max_can : grid for maximum number ofr candidates
+grid_val_can : grid info after the penalty
+
+o_g : obstacle list (in grid)
+o_p : obstacle list (in position)
+t_g : target object in grid
+t_p : target object in position
+r_p : robot body position
+
+ore_g : obstacles to be rearranged
+r_can : obstacles radius of the needed rearrangement
+emp_g : empty grid list
+occ_g : occupied grid list
+
+ran_c : random candidate!
+===================================
+function
+
+def getEmpOcc(gid_list):
+def place_circle_object_ig(grid_list, obj_r, obj_type):
+def mark_edge_grid(grid_list):
+def draw_grid_info(input_grid_info):
+def obstacle_circle(input_grid_info, circle_xyr, grid_num):
+def get_obstacle_re(ob, target_ori, obs_pos, Body_position, d_max):
+
+object type
+1: obstacle
+2: candidate
+3: target
+'''
+
+
+
+    # draw_grid_info(grid_env)
+    # draw_grid_info(grid_del)
+    # draw_grid_info(grid_max_can)
+    # draw_grid_info(grid_val_can)

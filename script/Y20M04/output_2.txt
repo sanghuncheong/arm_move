@@ -1,0 +1,29 @@
+table_resolution, table_width, table_depth, table_height, table_robot_distance, table_robot_height
+3 1.0 1.0 0.2 0.25 0.3
+response w_flag: 1
+work done
+Plan is found with 25 steps
+0,0,1
+No plan found
+No plan found
+No plan found
+No plan found
+Service call failed: service [/feasibile_check_srv] returned no response
+table_resolution, table_width, table_depth, table_height, table_robot_distance, table_robot_height
+3 1.0 1.0 0.2 0.25 0.3
+response w_flag: 1
+work done
+Plan is found with 31 steps
+0,0,1
+No plan found
+No plan found
+No plan found
+No plan found
+Plan is found with 38 steps
+0,1,1
+Plan is found with 46 steps
+0,2,1
+No plan found
+No plan found
+No plan found
+No plan found
